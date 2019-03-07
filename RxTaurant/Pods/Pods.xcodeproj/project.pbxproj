@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		119FE3D3471D9B78446BAC421B0C2456 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84600E3CA71E59D678775FBA11B2B41F /* Cells.swift */; };
+		19134917C23EA9A8D48327D5ED4AB9BD /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30194C99D163FDCD18F6FA886A793B12 /* Protocols.swift */; };
+		19DFBA423A1E0AC10BFA55655B2BF685 /* Dishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080850F574BAAED893A5098C50BE7EC /* Dishes.swift */; };
+		1A53C569F6AF6E89BE0D4F8A9C79531B /* ColleagueRelationships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2007046AFBF5FE8DAD971C0D3C5BF3 /* ColleagueRelationships.swift */; };
+		1AF6FCD335BAA1010AE4BE6F69177457 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951B406EEBF7E281E97338C91B28A825 /* Typealiases.swift */; };
+		1D6A7A52520F759E364EF591D8454340 /* Larder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A9148AEE97A50AB6DF7EC55D3A16D /* Larder.swift */; };
+		1EAB3A872395907A8C4B7E1482A3EB12 /* FreezerSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0913FC7D0F99E9C5B3065204936DC08 /* FreezerSections.swift */; };
+		310286C6ACAAB3096D0AA78B25C4E60B /* Pods-RxTaurant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9BC3875B66F1433229EBF20C519905 /* Pods-RxTaurant-dummy.m */; };
+		3339D812FD412ADABD9EEB3C6043808B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530D9F06183FB22F5E33BDE1D4FD50E2 /* Log.swift */; };
+		38C472CED28E6C334E098D69FAA751B9 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4664C68B16840C4361828D9C0C52872 /* Time.swift */; };
+		41C7EBF921B2A90F7C0B4912B1A90E7F /* RestaurantTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C182E2FFA9059B65ECE2D5E03820CA75 /* RestaurantTable.swift */; };
+		41F39A44E2012DE314605222D98A5BAD /* HeadChef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E2F2FFF3C73750061FB33908F07A8E /* HeadChef.swift */; };
+		42CA43A3CE68C060F3EF42A003BB4F09 /* StaffRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ECB0EFAC2006D8B1F2A27D52207493 /* StaffRelationship.swift */; };
+		4379C0F947EB1FF1438021E1AEB92B10 /* Carte.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0E5D1C331A5235A1AD2C1905650D7C /* Carte.swift */; };
+		468C6B25CACE915BED5EF4F9BB09F6DE /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477990923C741A140124D87BC630D71 /* Customer.swift */; };
+		4BD2156101207C6D8C78ABBA9ECA2AC7 /* FoodDelivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7063C92F39CBDDB7A6DC7392B9C4E2A /* FoodDelivery.swift */; };
+		4DB73756E4ED226C40F867CCCD582CDB /* SousChef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85862D248C0D06A8DDE2F536B9E51C24 /* SousChef.swift */; };
+		51CB09624BF811FD233656F2E234C0B2 /* PageCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C86A351A85AE6E3CDE8D5C8FD6F2A5 /* PageCustomer.swift */; };
+		52A37464944B4D6AC5892237CE06FEFD /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20812AF87FBCA049D9B6EB21E4443C97 /* Consts.swift */; };
+		651840CE0AA23912FEE3059DFA93D976 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C540F4EF9E5BCA907CED315D08B7C22A /* Extensions.swift */; };
+		8150EBACCCBB09E942AAA17FA904B1A5 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B6DF9152DB5B5A33461F1100CC9619 /* Constraints.swift */; };
+		84151E1CDB7D609036F336B6AB0C903D /* Dertisch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F114A9FCCF3A80BFEE96E52ABE18F /* Dertisch-dummy.m */; };
+		87B32C684E6DB8A22D94552126FC2F7E /* MaitreD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3560B4714F830DC346EABAA71DE229C /* MaitreD.swift */; };
+		B23AC8968228A0C901CDD568B511590D /* GeneralWaiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2642BA35AA24557AC2CE89058B5AAC /* GeneralWaiter.swift */; };
+		C3F39FA7EE3BA94CA0DDBAD069B6316B /* Pods-RxTaurant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7F5DA880B57D6CB51FBB8379B50E49 /* Pods-RxTaurant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4772C6CAB97253ED8B4BC5D848B5825 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5464D8CC1E7820DDBAD577087D36E3D /* Orders.swift */; };
+		C638640CAC9F429799872BFC9EB89833 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434DC118D56BE253E19EB4FAFCC884D /* Ingredient.swift */; };
+		C66049F9826D76A707DD8F9395FDD5CB /* Waiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA75838486D578A85BD1A1459583D6 /* Waiter.swift */; };
+		C9C1EF8AEE19C63769C340973439A839 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF24D4F84B719E57D95FD29F396D9F2 /* StringUtils.swift */; };
+		CE5FB64395A52C6C05FB48EC437DC7F8 /* Sommelier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C3A35DE5306B385683928B1184726 /* Sommelier.swift */; };
+		CFD7EBB62CA316170DCA6266D16759C4 /* Dertisch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E53C93B966FD7855564DDD54D44FCA68 /* Dertisch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D41BCB0D3F234C8AC970A94EF0C52426 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F713B61E330DFADFE3DC6E2105FC20 /* Images.swift */; };
+		D51267BB1FFCB498C34B23AC97CE75BA /* Freezer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D1863C1F8232E32E71C432930E30BF /* Freezer.swift */; };
+		DE3EF8C41596EBB5ED4B222085EB73B1 /* RawIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C2D5E14336A04B6ADC725942862DB6 /* RawIngredients.swift */; };
+		E0CA79A7BC0861CE68DF4CB8441D949D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EFCCEA58840858BC0D89D3DCC082175B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		057C5C8FD6991800763634532CA7E877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914859A9EF11AF69E013C407B93FA53C;
+			remoteInfo = Dertisch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0080850F574BAAED893A5098C50BE7EC /* Dishes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dishes.swift; sourceTree = "<group>"; };
+		0477990923C741A140124D87BC630D71 /* Customer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		06F713B61E330DFADFE3DC6E2105FC20 /* Images.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		0B2007046AFBF5FE8DAD971C0D3C5BF3 /* ColleagueRelationships.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColleagueRelationships.swift; sourceTree = "<group>"; };
+		132EA3AE1E7EA3F86E77528D122E120A /* Pods-RxTaurant-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RxTaurant-frameworks.sh"; sourceTree = "<group>"; };
+		1E17C482C74EB910374E87954E5230D5 /* Pods-RxTaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxTaurant.release.xcconfig"; sourceTree = "<group>"; };
+		1EAF6BA0FBC79DCC30E8BE569ED0555B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		20812AF87FBCA049D9B6EB21E4443C97 /* Consts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		30194C99D163FDCD18F6FA886A793B12 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		32068FF4CDC7A0C04997449EDA75F61C /* Dertisch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dertisch-prefix.pch"; sourceTree = "<group>"; };
+		3DCA75838486D578A85BD1A1459583D6 /* Waiter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Waiter.swift; sourceTree = "<group>"; };
+		3F33550115609030BF8D4FA96A45743F /* Dertisch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Dertisch-Info.plist"; sourceTree = "<group>"; };
+		4A4176D22DCB81B5FD343A1F0785CB48 /* Dertisch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Dertisch.modulemap; sourceTree = "<group>"; };
+		4C3F114A9FCCF3A80BFEE96E52ABE18F /* Dertisch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dertisch-dummy.m"; sourceTree = "<group>"; };
+		530D9F06183FB22F5E33BDE1D4FD50E2 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		54B6DF9152DB5B5A33461F1100CC9619 /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		5540690B1077E37C04B3395136569AFA /* Pods-RxTaurant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RxTaurant.modulemap"; sourceTree = "<group>"; };
+		62C86A351A85AE6E3CDE8D5C8FD6F2A5 /* PageCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PageCustomer.swift; sourceTree = "<group>"; };
+		66C2D5E14336A04B6ADC725942862DB6 /* RawIngredients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RawIngredients.swift; sourceTree = "<group>"; };
+		67E2F2FFF3C73750061FB33908F07A8E /* HeadChef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HeadChef.swift; sourceTree = "<group>"; };
+		7434DC118D56BE253E19EB4FAFCC884D /* Ingredient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		8342E834DF28229724C1BD1A57C7E285 /* Pods-RxTaurant-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RxTaurant-acknowledgements.markdown"; sourceTree = "<group>"; };
+		838C3A35DE5306B385683928B1184726 /* Sommelier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Sommelier.swift; sourceTree = "<group>"; };
+		84600E3CA71E59D678775FBA11B2B41F /* Cells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		85862D248C0D06A8DDE2F536B9E51C24 /* SousChef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SousChef.swift; sourceTree = "<group>"; };
+		8EF24D4F84B719E57D95FD29F396D9F2 /* StringUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		951B406EEBF7E281E97338C91B28A825 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		97E6581C3424AA9C0A4DC67592D2D25C /* Pods_RxTaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RxTaurant.framework; path = "Pods-RxTaurant.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D1863C1F8232E32E71C432930E30BF /* Freezer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Freezer.swift; sourceTree = "<group>"; };
+		A3560B4714F830DC346EABAA71DE229C /* MaitreD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaitreD.swift; sourceTree = "<group>"; };
+		A781D9B92E902D4DFF5B92B57331D784 /* Pods-RxTaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxTaurant.debug.xcconfig"; sourceTree = "<group>"; };
+		B8EBC7226FCEE94DB549A657B3F0A889 /* Dertisch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Dertisch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B93A9148AEE97A50AB6DF7EC55D3A16D /* Larder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Larder.swift; sourceTree = "<group>"; };
+		C182E2FFA9059B65ECE2D5E03820CA75 /* RestaurantTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RestaurantTable.swift; sourceTree = "<group>"; };
+		C540F4EF9E5BCA907CED315D08B7C22A /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0913FC7D0F99E9C5B3065204936DC08 /* FreezerSections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FreezerSections.swift; sourceTree = "<group>"; };
+		D48FF827F8BF40F64965FB6FCB6F822F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5A6E6A30723856882F21030D7067CE6 /* Pods-RxTaurant-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxTaurant-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD9BC3875B66F1433229EBF20C519905 /* Pods-RxTaurant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RxTaurant-dummy.m"; sourceTree = "<group>"; };
+		E4664C68B16840C4361828D9C0C52872 /* Time.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		E53C93B966FD7855564DDD54D44FCA68 /* Dertisch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dertisch-umbrella.h"; sourceTree = "<group>"; };
+		E5464D8CC1E7820DDBAD577087D36E3D /* Orders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		E7063C92F39CBDDB7A6DC7392B9C4E2A /* FoodDelivery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FoodDelivery.swift; sourceTree = "<group>"; };
+		E81F303C3D78B1232EF73859393CEFF2 /* Pods-RxTaurant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RxTaurant-Info.plist"; sourceTree = "<group>"; };
+		E8A40ABE8424FB5CFC0E08BA3424734D /* Dertisch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Dertisch.framework; path = Dertisch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2642BA35AA24557AC2CE89058B5AAC /* GeneralWaiter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeneralWaiter.swift; sourceTree = "<group>"; };
+		F5C1C896C5EA0ED54D2F991E9B2584FA /* Dertisch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dertisch.xcconfig; sourceTree = "<group>"; };
+		F5ECB0EFAC2006D8B1F2A27D52207493 /* StaffRelationship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StaffRelationship.swift; sourceTree = "<group>"; };
+		FB0E5D1C331A5235A1AD2C1905650D7C /* Carte.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Carte.swift; sourceTree = "<group>"; };
+		FC7F5DA880B57D6CB51FBB8379B50E49 /* Pods-RxTaurant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RxTaurant-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DF59BB1D60D7D02B2264647ABD9DF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CA79A7BC0861CE68DF4CB8441D949D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889715295015F50E315BA99E230C74BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCCEA58840858BC0D89D3DCC082175B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5E312BE3AB4E1E02DA88E5DC8DEA11 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63FE30AC39DD101877A62695D1C09A61 /* Dertisch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		414ED4059437417345BECA88E0DFBAAD /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+				84600E3CA71E59D678775FBA11B2B41F /* Cells.swift */,
+				0477990923C741A140124D87BC630D71 /* Customer.swift */,
+				62C86A351A85AE6E3CDE8D5C8FD6F2A5 /* PageCustomer.swift */,
+				C182E2FFA9059B65ECE2D5E03820CA75 /* RestaurantTable.swift */,
+			);
+			name = Customers;
+			path = Dertisch/Customers;
+			sourceTree = "<group>";
+		};
+		60F2DDA4CF2448493E3FC8013993AE2B /* Salle */ = {
+			isa = PBXGroup;
+			children = (
+				FB0E5D1C331A5235A1AD2C1905650D7C /* Carte.swift */,
+				ED2642BA35AA24557AC2CE89058B5AAC /* GeneralWaiter.swift */,
+				A3560B4714F830DC346EABAA71DE229C /* MaitreD.swift */,
+				838C3A35DE5306B385683928B1184726 /* Sommelier.swift */,
+				3DCA75838486D578A85BD1A1459583D6 /* Waiter.swift */,
+			);
+			name = Salle;
+			path = Dertisch/Salle;
+			sourceTree = "<group>";
+		};
+		63FE30AC39DD101877A62695D1C09A61 /* Dertisch */ = {
+			isa = PBXGroup;
+			children = (
+				414ED4059437417345BECA88E0DFBAAD /* Customers */,
+				D6E6093A701FC15D3F5AA9B195EDC943 /* Entrees */,
+				DDC6A6DC09529D1C8C2CC7BDCAD7A5CB /* Kitchen */,
+				663056E0B531D8618C6CB3E16105B0D9 /* Pod */,
+				60F2DDA4CF2448493E3FC8013993AE2B /* Salle */,
+				E3EC1CE9F309B24C6D403F785D4A14FE /* Support Files */,
+				F80F20FA4E996A82010B995E8798186B /* Utils */,
+			);
+			name = Dertisch;
+			path = /Users/richardwillis/Documents/Development/Dertisch;
+			sourceTree = "<absolute>";
+		};
+		663056E0B531D8618C6CB3E16105B0D9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B8EBC7226FCEE94DB549A657B3F0A889 /* Dertisch.podspec */,
+				1EAF6BA0FBC79DCC30E8BE569ED0555B /* LICENSE */,
+				D48FF827F8BF40F64965FB6FCB6F822F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7132FBE02340B6911AE25C55DBDC17B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8149B2BB453B57A9FC6C12B70C7CCDB1 /* Pods-RxTaurant */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8149B2BB453B57A9FC6C12B70C7CCDB1 /* Pods-RxTaurant */ = {
+			isa = PBXGroup;
+			children = (
+				5540690B1077E37C04B3395136569AFA /* Pods-RxTaurant.modulemap */,
+				8342E834DF28229724C1BD1A57C7E285 /* Pods-RxTaurant-acknowledgements.markdown */,
+				D5A6E6A30723856882F21030D7067CE6 /* Pods-RxTaurant-acknowledgements.plist */,
+				DD9BC3875B66F1433229EBF20C519905 /* Pods-RxTaurant-dummy.m */,
+				132EA3AE1E7EA3F86E77528D122E120A /* Pods-RxTaurant-frameworks.sh */,
+				E81F303C3D78B1232EF73859393CEFF2 /* Pods-RxTaurant-Info.plist */,
+				FC7F5DA880B57D6CB51FBB8379B50E49 /* Pods-RxTaurant-umbrella.h */,
+				A781D9B92E902D4DFF5B92B57331D784 /* Pods-RxTaurant.debug.xcconfig */,
+				1E17C482C74EB910374E87954E5230D5 /* Pods-RxTaurant.release.xcconfig */,
+			);
+			name = "Pods-RxTaurant";
+			path = "Target Support Files/Pods-RxTaurant";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0E5E312BE3AB4E1E02DA88E5DC8DEA11 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E61B615BC19209E9D36923CCE6EF3CA5 /* Products */,
+				7132FBE02340B6911AE25C55DBDC17B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6E6093A701FC15D3F5AA9B195EDC943 /* Entrees */ = {
+			isa = PBXGroup;
+			children = (
+				0B2007046AFBF5FE8DAD971C0D3C5BF3 /* ColleagueRelationships.swift */,
+				0080850F574BAAED893A5098C50BE7EC /* Dishes.swift */,
+				D0913FC7D0F99E9C5B3065204936DC08 /* FreezerSections.swift */,
+				E5464D8CC1E7820DDBAD577087D36E3D /* Orders.swift */,
+				66C2D5E14336A04B6ADC725942862DB6 /* RawIngredients.swift */,
+				F5ECB0EFAC2006D8B1F2A27D52207493 /* StaffRelationship.swift */,
+			);
+			name = Entrees;
+			path = Dertisch/Entrees;
+			sourceTree = "<group>";
+		};
+		DDC6A6DC09529D1C8C2CC7BDCAD7A5CB /* Kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				E7063C92F39CBDDB7A6DC7392B9C4E2A /* FoodDelivery.swift */,
+				A1D1863C1F8232E32E71C432930E30BF /* Freezer.swift */,
+				67E2F2FFF3C73750061FB33908F07A8E /* HeadChef.swift */,
+				06F713B61E330DFADFE3DC6E2105FC20 /* Images.swift */,
+				7434DC118D56BE253E19EB4FAFCC884D /* Ingredient.swift */,
+				B93A9148AEE97A50AB6DF7EC55D3A16D /* Larder.swift */,
+				85862D248C0D06A8DDE2F536B9E51C24 /* SousChef.swift */,
+			);
+			name = Kitchen;
+			path = Dertisch/Kitchen;
+			sourceTree = "<group>";
+		};
+		E3EC1CE9F309B24C6D403F785D4A14FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A4176D22DCB81B5FD343A1F0785CB48 /* Dertisch.modulemap */,
+				F5C1C896C5EA0ED54D2F991E9B2584FA /* Dertisch.xcconfig */,
+				4C3F114A9FCCF3A80BFEE96E52ABE18F /* Dertisch-dummy.m */,
+				3F33550115609030BF8D4FA96A45743F /* Dertisch-Info.plist */,
+				32068FF4CDC7A0C04997449EDA75F61C /* Dertisch-prefix.pch */,
+				E53C93B966FD7855564DDD54D44FCA68 /* Dertisch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../RxTaurant/RxTaurant/Pods/Target Support Files/Dertisch";
+			sourceTree = "<group>";
+		};
+		E61B615BC19209E9D36923CCE6EF3CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8A40ABE8424FB5CFC0E08BA3424734D /* Dertisch.framework */,
+				97E6581C3424AA9C0A4DC67592D2D25C /* Pods_RxTaurant.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80F20FA4E996A82010B995E8798186B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				54B6DF9152DB5B5A33461F1100CC9619 /* Constraints.swift */,
+				20812AF87FBCA049D9B6EB21E4443C97 /* Consts.swift */,
+				C540F4EF9E5BCA907CED315D08B7C22A /* Extensions.swift */,
+				530D9F06183FB22F5E33BDE1D4FD50E2 /* Log.swift */,
+				30194C99D163FDCD18F6FA886A793B12 /* Protocols.swift */,
+				8EF24D4F84B719E57D95FD29F396D9F2 /* StringUtils.swift */,
+				E4664C68B16840C4361828D9C0C52872 /* Time.swift */,
+				951B406EEBF7E281E97338C91B28A825 /* Typealiases.swift */,
+			);
+			name = Utils;
+			path = Dertisch/Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C6D4233A689BFCE9813E4903D1AA1716 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD7EBB62CA316170DCA6266D16759C4 /* Dertisch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EFCE3FC05EC0DE33BD8A287CAA6D14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F39FA7EE3BA94CA0DDBAD069B6316B /* Pods-RxTaurant-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42E8962F65E0A9EE49DCCA4823094EB5 /* Pods-RxTaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB42B6929D1D0A8D4BF90B760C5691B8 /* Build configuration list for PBXNativeTarget "Pods-RxTaurant" */;
+			buildPhases = (
+				D3EFCE3FC05EC0DE33BD8A287CAA6D14 /* Headers */,
+				D6A988973AA5C0BEA56DC49049B35B5A /* Sources */,
+				889715295015F50E315BA99E230C74BA /* Frameworks */,
+				700DED993EB2BEC945DC48EEFE1C2469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0245D345BAA37C62473519864BDE4B55 /* PBXTargetDependency */,
+			);
+			name = "Pods-RxTaurant";
+			productName = "Pods-RxTaurant";
+			productReference = 97E6581C3424AA9C0A4DC67592D2D25C /* Pods_RxTaurant.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		914859A9EF11AF69E013C407B93FA53C /* Dertisch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779EC2140576B4987A47F8E56C18E638 /* Build configuration list for PBXNativeTarget "Dertisch" */;
+			buildPhases = (
+				C6D4233A689BFCE9813E4903D1AA1716 /* Headers */,
+				4AEFEF1FFF8B78586794228B6859FCC0 /* Sources */,
+				6DF59BB1D60D7D02B2264647ABD9DF48 /* Frameworks */,
+				DC00D6C907C054108B2B29BC282F943E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dertisch;
+			productName = Dertisch;
+			productReference = E8A40ABE8424FB5CFC0E08BA3424734D /* Dertisch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E61B615BC19209E9D36923CCE6EF3CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914859A9EF11AF69E013C407B93FA53C /* Dertisch */,
+				42E8962F65E0A9EE49DCCA4823094EB5 /* Pods-RxTaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700DED993EB2BEC945DC48EEFE1C2469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC00D6C907C054108B2B29BC282F943E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AEFEF1FFF8B78586794228B6859FCC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4379C0F947EB1FF1438021E1AEB92B10 /* Carte.swift in Sources */,
+				119FE3D3471D9B78446BAC421B0C2456 /* Cells.swift in Sources */,
+				1A53C569F6AF6E89BE0D4F8A9C79531B /* ColleagueRelationships.swift in Sources */,
+				8150EBACCCBB09E942AAA17FA904B1A5 /* Constraints.swift in Sources */,
+				52A37464944B4D6AC5892237CE06FEFD /* Consts.swift in Sources */,
+				468C6B25CACE915BED5EF4F9BB09F6DE /* Customer.swift in Sources */,
+				84151E1CDB7D609036F336B6AB0C903D /* Dertisch-dummy.m in Sources */,
+				19DFBA423A1E0AC10BFA55655B2BF685 /* Dishes.swift in Sources */,
+				651840CE0AA23912FEE3059DFA93D976 /* Extensions.swift in Sources */,
+				4BD2156101207C6D8C78ABBA9ECA2AC7 /* FoodDelivery.swift in Sources */,
+				D51267BB1FFCB498C34B23AC97CE75BA /* Freezer.swift in Sources */,
+				1EAB3A872395907A8C4B7E1482A3EB12 /* FreezerSections.swift in Sources */,
+				B23AC8968228A0C901CDD568B511590D /* GeneralWaiter.swift in Sources */,
+				41F39A44E2012DE314605222D98A5BAD /* HeadChef.swift in Sources */,
+				D41BCB0D3F234C8AC970A94EF0C52426 /* Images.swift in Sources */,
+				C638640CAC9F429799872BFC9EB89833 /* Ingredient.swift in Sources */,
+				1D6A7A52520F759E364EF591D8454340 /* Larder.swift in Sources */,
+				3339D812FD412ADABD9EEB3C6043808B /* Log.swift in Sources */,
+				87B32C684E6DB8A22D94552126FC2F7E /* MaitreD.swift in Sources */,
+				C4772C6CAB97253ED8B4BC5D848B5825 /* Orders.swift in Sources */,
+				51CB09624BF811FD233656F2E234C0B2 /* PageCustomer.swift in Sources */,
+				19134917C23EA9A8D48327D5ED4AB9BD /* Protocols.swift in Sources */,
+				DE3EF8C41596EBB5ED4B222085EB73B1 /* RawIngredients.swift in Sources */,
+				41C7EBF921B2A90F7C0B4912B1A90E7F /* RestaurantTable.swift in Sources */,
+				CE5FB64395A52C6C05FB48EC437DC7F8 /* Sommelier.swift in Sources */,
+				4DB73756E4ED226C40F867CCCD582CDB /* SousChef.swift in Sources */,
+				42CA43A3CE68C060F3EF42A003BB4F09 /* StaffRelationship.swift in Sources */,
+				C9C1EF8AEE19C63769C340973439A839 /* StringUtils.swift in Sources */,
+				38C472CED28E6C334E098D69FAA751B9 /* Time.swift in Sources */,
+				1AF6FCD335BAA1010AE4BE6F69177457 /* Typealiases.swift in Sources */,
+				C66049F9826D76A707DD8F9395FDD5CB /* Waiter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A988973AA5C0BEA56DC49049B35B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310286C6ACAAB3096D0AA78B25C4E60B /* Pods-RxTaurant-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0245D345BAA37C62473519864BDE4B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dertisch;
+			target = 914859A9EF11AF69E013C407B93FA53C /* Dertisch */;
+			targetProxy = 057C5C8FD6991800763634532CA7E877 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001EF036605F497ADA32290854DC78CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E17C482C74EB910374E87954E5230D5 /* Pods-RxTaurant.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RxTaurant/Pods-RxTaurant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RxTaurant/Pods-RxTaurant.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		286F1660139BECAA907DCB543C3D118F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C1C896C5EA0ED54D2F991E9B2584FA /* Dertisch.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dertisch/Dertisch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dertisch/Dertisch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dertisch/Dertisch.modulemap";
+				PRODUCT_MODULE_NAME = Dertisch;
+				PRODUCT_NAME = Dertisch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4811496BEFE8929142A0FCDC9684AF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C1C896C5EA0ED54D2F991E9B2584FA /* Dertisch.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dertisch/Dertisch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dertisch/Dertisch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dertisch/Dertisch.modulemap";
+				PRODUCT_MODULE_NAME = Dertisch;
+				PRODUCT_NAME = Dertisch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D85694DC20219FC5EB208A37E88B9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A781D9B92E902D4DFF5B92B57331D784 /* Pods-RxTaurant.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RxTaurant/Pods-RxTaurant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RxTaurant/Pods-RxTaurant.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779EC2140576B4987A47F8E56C18E638 /* Build configuration list for PBXNativeTarget "Dertisch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4811496BEFE8929142A0FCDC9684AF1D /* Debug */,
+				286F1660139BECAA907DCB543C3D118F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB42B6929D1D0A8D4BF90B760C5691B8 /* Build configuration list for PBXNativeTarget "Pods-RxTaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D85694DC20219FC5EB208A37E88B9ED /* Debug */,
+				001EF036605F497ADA32290854DC78CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

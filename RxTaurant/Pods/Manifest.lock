@@ -1,0 +1,16 @@
+PODS:
+  - Dertisch (0.6.4)
+
+DEPENDENCIES:
+  - Dertisch (from `~/Documents/Development/Dertisch/`)
+
+EXTERNAL SOURCES:
+  Dertisch:
+    :path: "~/Documents/Development/Dertisch/"
+
+SPEC CHECKSUMS:
+  Dertisch: 46f3c0bfab372fe49b53dfb87af323cc2c50a1d5
+
+PODFILE CHECKSUM: 3b8e441d84d813a49b6196a9b5f869be300e0acd
+
+COCOAPODS: 1.6.0.rc.2

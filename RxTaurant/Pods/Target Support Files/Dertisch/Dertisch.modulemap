@@ -1,0 +1,6 @@
+framework module Dertisch {
+  umbrella header "Dertisch-umbrella.h"
+
+  export *
+  module * { export * }
+}
