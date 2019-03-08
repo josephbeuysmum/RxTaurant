@@ -1,5 +1,5 @@
 //
-//  SomeRestaurantTable.swift
+//  SomeSeat.swift
 //  DertischFive
 //
 //  Created by Richard Willis on 09/02/2019.
@@ -9,6 +9,6 @@
 import Dertisch
 import UIKit
 
-class SomeRestaurantTable: RestaurantTable {
+class SomeSeat: Seat {
 	@IBOutlet weak var button: UIButton!
 }

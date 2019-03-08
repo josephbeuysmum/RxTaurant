@@ -14,7 +14,7 @@ extension MaitreD: MaitreDExtension {
 //		introduce(
 //			"Some",
 //			with: key,
-//			customerForRestaurantTable: SomeCustomerForRestaurantTable.self,
+//			customerForSeat: SomeCustomerForSeat.self,
 //			customerForMaitreD: SomeCustomerForMaitreD.self,
 //			customerForSommelier: SomeCustomerForSommelier.self,
 //			customerForWaiter: SomeCustomerForWaiter.self,

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9A882DE2232FD9300046286 /* RxCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A882DD2232FD9300046286 /* RxCustomer.swift */; };
 		A9F41876222E958700EEC15E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F41875222E958700EEC15E /* AppDelegate.swift */; };
 		A9F41878222E958700EEC15E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F41877222E958700EEC15E /* ViewController.swift */; };
 		A9F4187B222E958700EEC15E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F41879222E958700EEC15E /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		16D852DE51887C41E72F7A80 /* Pods_RxTaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxTaurant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A882DD2232FD9300046286 /* RxCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCustomer.swift; sourceTree = "<group>"; };
 		A9F41872222E958700EEC15E /* RxTaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F41875222E958700EEC15E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9F41877222E958700EEC15E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				A9F418A2222EA94E00EEC15E /* Utils */,
-				A9F4189F222E971F00EEC15E /* Salle */,
+				A9F4189F222E971F00EEC15E /* Staff */,
 				A9F41897222E96C400EEC15E /* MaitreDExtension.swift */,
 				A9F41896222E96C400EEC15E /* SomeCustomer.swift */,
 				A9F41899222E96C500EEC15E /* SomeHeadChef.swift */,
@@ -141,12 +143,13 @@
 			path = RxTaurantTests;
 			sourceTree = "<group>";
 		};
-		A9F4189F222E971F00EEC15E /* Salle */ = {
+		A9F4189F222E971F00EEC15E /* Staff */ = {
 			isa = PBXGroup;
 			children = (
 				A9F418A0222E9B7400EEC15E /* RxWaiter.swift */,
+				A9A882DD2232FD9300046286 /* RxCustomer.swift */,
 			);
-			path = Salle;
+			path = Staff;
 			sourceTree = "<group>";
 		};
 		A9F418A2222EA94E00EEC15E /* Utils */ = {
@@ -310,6 +313,7 @@
 				A9F41878222E958700EEC15E /* ViewController.swift in Sources */,
 				A9F4189A222E96C500EEC15E /* SomeWaiter.swift in Sources */,
 				A9F4189C222E96C500EEC15E /* MaitreDExtension.swift in Sources */,
+				A9A882DE2232FD9300046286 /* RxCustomer.swift in Sources */,
 				A9F418A4222EA95D00EEC15E /* Protocols.swift in Sources */,
 				A9F4189E222E96C500EEC15E /* SomeHeadChef.swift in Sources */,
 				A9F4189D222E96C500EEC15E /* SomeRestaurantTable.swift in Sources */,

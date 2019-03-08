@@ -9,73 +9,62 @@
 import Dertisch
 import UIKit
 
-class SomeCustomerForSommelier: DtCustomerForSommelier {
-	required init(_ key: String, _ customer: DtCustomer) {
+class SomeRxCustomerForSommelier: RxCustomerForSommelier {
+	private let key: String
+	private let customer: RxCustomer
+	
+	required init(_ key: String, _ customer: RxCustomer) {
 		lo("YAY")
+		self.key = key
+		self.customer = customer
 	}
 }
 
-class SomeCustomerForMaitreD: DtCustomerForMaitreD {
-	required init(_ key: String, _ customer: DtCustomer) {
+class SomeRxCustomerForMaitreD: RxCustomerForMaitreD {
+	required init(_ key: String, _ customer: RxCustomer) {
+//		customer.
+	}
+}
+
+class SomeRxCustomerForWaiter: RxCustomerForWaiter {
+	required init(_ key: String, _ customer: RxCustomer) {
 		
 	}
 }
 
-class SomeCustomerForWaiter: DtCustomerForWaiter {
-	required init(_ key: String, _ customer: DtCustomer) {
-		
-	}
-}
-
-class SomeCustomerForRestaurantTable: DtCustomerForRestaurantTable {
-	required init(_ key: String, _ customer: DtCustomer) {
+class SomeRxCustomerForSeat: RxCustomerForSeat {
+	required init(_ key: String, _ customer: RxCustomer) {
 		
 	}
 }
 
 
 
-//class SomeCustomerForSommelier: CustomerForSommelier {
-//	required init() {}
-//	
-//	
-//	
-//	required init (_ key: String, _ customer: DtCustomer) {}
-//}
-//
-//class SomeCustomerForMaitreD: CustomerForMaitreD {
-//	private let customer: Customerable
-//	private let key: String
-//	
-//	required init (_ key: String, _ customer: Customerable) {
-//		self.customer = customer
-//		self.key = key
-//	}
-//	
-//	func showToTable() {
-//		if let someRestaurantTable = customer.restaurantTable as? SomeRestaurantTable {
-//			someRestaurantTable.button.addTarget(self, action: #selector(buttonPressed(_:)), for: .touchUpInside)
-//		}
-//	}
-//	
-//	public func layTable() {
-//		lo()
-//	}
-//	
-//	@IBAction private func buttonPressed(_ sender: UIButton) {
-//		lo(key, customer.waiter(key), "COMMED OUT FOR NOW")
-////		customer.waiter(key)?.give(CustomerOrder("teststring", 1), key)
-//	}
-//}
-//
-//class SomeCustomerForWaiter: CustomerForWaiter {
-//	required init (_ key: String, _ customer: Customerable) {}
-//
-//	func present(dish dishId: String) {
-//		lo(dishId)
-//	}
-//}
-//
-//class SomeCustomerForRestaurantTable: CustomerForRestaurantTable {
-//	required init (_ key: String, _ customer: Customerable) {}
-//}
+class SomeCustomerForSommelier: CustomerForSommelier {
+	private let key: String
+	private let customer: Customer
+
+	required init(_ key: String, _ customer: Customer) {
+		lo("YAY")
+		self.key = key
+		self.customer = customer
+	}
+}
+
+class SomeCustomerForMaitreD: CustomerForMaitreD {
+	required init(_ key: String, _ customer: Customer) {
+
+	}
+}
+
+class SomeCustomerForWaiter: CustomerForWaiter {
+	required init(_ key: String, _ customer: Customer) {
+
+	}
+}
+
+class SomeCustomerForSeat: CustomerForSeat {
+	required init(_ key: String, _ customer: Customer) {
+
+	}
+}
