@@ -30,6 +30,7 @@
 		8150EBACCCBB09E942AAA17FA904B1A5 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B6DF9152DB5B5A33461F1100CC9619 /* Constraints.swift */; };
 		84151E1CDB7D609036F336B6AB0C903D /* Dertisch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F114A9FCCF3A80BFEE96E52ABE18F /* Dertisch-dummy.m */; };
 		87B32C684E6DB8A22D94552126FC2F7E /* MaitreD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3560B4714F830DC346EABAA71DE229C /* MaitreD.swift */; };
+		A91BBBE0223A75BA00F7F063 /* Personalities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91BBBDF223A75BA00F7F063 /* Personalities.swift */; };
 		B23AC8968228A0C901CDD568B511590D /* GeneralWaiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2642BA35AA24557AC2CE89058B5AAC /* GeneralWaiter.swift */; };
 		C3F39FA7EE3BA94CA0DDBAD069B6316B /* Pods-RxTaurant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7F5DA880B57D6CB51FBB8379B50E49 /* Pods-RxTaurant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4772C6CAB97253ED8B4BC5D848B5825 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5464D8CC1E7820DDBAD577087D36E3D /* Orders.swift */; };
@@ -88,6 +89,7 @@
 		A1D1863C1F8232E32E71C432930E30BF /* Freezer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Freezer.swift; sourceTree = "<group>"; };
 		A3560B4714F830DC346EABAA71DE229C /* MaitreD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaitreD.swift; sourceTree = "<group>"; };
 		A781D9B92E902D4DFF5B92B57331D784 /* Pods-RxTaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RxTaurant.debug.xcconfig"; sourceTree = "<group>"; };
+		A91BBBDF223A75BA00F7F063 /* Personalities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personalities.swift; sourceTree = "<group>"; };
 		B8EBC7226FCEE94DB549A657B3F0A889 /* Dertisch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Dertisch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B93A9148AEE97A50AB6DF7EC55D3A16D /* Larder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Larder.swift; sourceTree = "<group>"; };
 		C182E2FFA9059B65ECE2D5E03820CA75 /* RestaurantTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RestaurantTable.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 				0080850F574BAAED893A5098C50BE7EC /* Dishes.swift */,
 				D0913FC7D0F99E9C5B3065204936DC08 /* FreezerSections.swift */,
 				E5464D8CC1E7820DDBAD577087D36E3D /* Orders.swift */,
+				A91BBBDF223A75BA00F7F063 /* Personalities.swift */,
 				66C2D5E14336A04B6ADC725942862DB6 /* RawIngredients.swift */,
 				F5ECB0EFAC2006D8B1F2A27D52207493 /* StaffRelationship.swift */,
 			);
@@ -433,6 +436,7 @@
 				D41BCB0D3F234C8AC970A94EF0C52426 /* Images.swift in Sources */,
 				C638640CAC9F429799872BFC9EB89833 /* Ingredient.swift in Sources */,
 				1D6A7A52520F759E364EF591D8454340 /* Larder.swift in Sources */,
+				A91BBBE0223A75BA00F7F063 /* Personalities.swift in Sources */,
 				3339D812FD412ADABD9EEB3C6043808B /* Log.swift in Sources */,
 				87B32C684E6DB8A22D94552126FC2F7E /* MaitreD.swift in Sources */,
 				C4772C6CAB97253ED8B4BC5D848B5825 /* Orders.swift in Sources */,

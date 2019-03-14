@@ -22,7 +22,6 @@ class SomeRxCustomerForSommelier: RxCustomerForSommelier {
 
 class SomeRxCustomerForMaitreD: RxCustomerForMaitreD {
 	required init(_ key: String, _ customer: RxCustomer) {
-//		customer.
 	}
 }
 

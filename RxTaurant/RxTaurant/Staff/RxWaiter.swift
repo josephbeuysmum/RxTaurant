@@ -51,7 +51,6 @@ internal protocol RxWaiterInternal: Waiterable {
 public class RxWaiter {
 	private let private_key: String
 	
-	// tood change to lets?
 	fileprivate var for_customer: RxWaiterForCustomer?
 	fileprivate var for_head_chef: RxWaiterForHeadChef?
 	fileprivate var for_waiter: GeneralWaiterForWaiter?
